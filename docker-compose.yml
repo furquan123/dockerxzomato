@@ -1,0 +1,16 @@
+version: '3'
+services:
+  car:
+    image: fk23/zomatocar:v1
+    ports:
+      - "8000:80"
+
+  bike:
+    image: fk23/zomatobike:v1
+    ports:
+      - "8001:80"
+
+  auto: 
+    image: fk23/zomatoauto:v1
+    ports:
+      - "8002:80"    
